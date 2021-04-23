@@ -27,7 +27,9 @@ Maps have been produced to represent broadband users only and does not include u
 
 Class Intervals:
 •	Equal Intervals: each class has the same size, values from 58 to 86 with 5 classes and each class size of 5.6.
+
 •	Quantile: each class will have the same number of elements inside (the idea of a boxplot).
+
 •	Natural Breaks (Jenks): the variance within each class is minimal while the variance between classes is maximal.
 
 In the case of Ireland, based on past progress and current plans, it is unlikely that the 30 Mbps will be available to all citizens by 2020.
@@ -35,9 +37,12 @@ In the case of Ireland, based on past progress and current plans, it is unlikely
 ## Conclusion 
 
 •	The highest number of broadband and internet is the Dublin area which supports the fact that there exists large number of personal computers, industries and population density.
+
 •	Households in sparsely populated and lagging regions also have significantly lower rates of penetration which are difficult to serve from the perspective of a profit driven provider.
+
 •	I found Natural Breaks (Jenks) the best way to split up the range as it minimizes the variation within each colour.
 
 ### References
 •	QGIS Tutorial: http://www.qgistutorials.com/en/
+
 •	NCG608[A] module presentations and notes.
